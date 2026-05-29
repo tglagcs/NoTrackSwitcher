@@ -44,7 +44,6 @@ cmake --build build
 
 | | NoTrack Switcher | Punto Switcher |
 |---|---|---|
-| Размер EXE | ~3 МБ | ~50 МБ |
 | Установка | Не нужна | Установщик |
 | Телеметрия | Нет | Да (Яндекс) |
 | Открытый код | Да | Нет |
@@ -95,7 +94,6 @@ See [BUILD.md](BUILD.md) for more options (MinGW, MSYS2).
 
 | | NoTrack Switcher | Punto Switcher |
 |---|---|---|
-| EXE size | ~3 MB | ~50 MB |
 | Installation | Not required | Installer |
 | Telemetry | None | Yes (Yandex) |
 | Open source | Yes | No |
