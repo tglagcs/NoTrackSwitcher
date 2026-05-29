@@ -1,0 +1,24 @@
+; NoTrack Switcher configuration
+; Copy this file to notrack.ini and edit as needed.
+;
+; Hotkey syntax: [Ctrl+][Alt+][Shift+][Win+]KeyName
+; Key names: Pause, Break, F1-F24, Insert, Delete, Home, End, PageUp, PageDown,
+;            ScrollLock, NumLock, PrintScreen, Tab, Space, Back, Esc, A-Z, 0-9
+
+[hotkeys]
+fix_word=Pause
+fix_selection=Shift+Pause
+switch_layout=
+
+[behavior]
+; Delay (ms) between layout switch and retype. Increase if characters appear wrong.
+switch_delay_ms=30
+; Maximum number of keystrokes to remember (16-512)
+buffer_size=128
+enabled=true
+auto_start=false
+
+[exclusions]
+; Comma-separated list of process names to ignore (case-insensitive).
+; Example: mstsc.exe,putty.exe
+process_list=
