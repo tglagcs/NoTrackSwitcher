@@ -40,15 +40,13 @@ cmake --build build
 
 Подробнее — в [BUILD.md](BUILD.md).
 
-### Сравнение с Punto Switcher (одна из популярнейших утилит для исправления раскладки)
+### Преимущества
 
-| | NoTrackSwitcher | Punto Switcher |
-|---|---|---|
-| Установка | Не нужна | Установщик |
-| Телеметрия | Нет | Да (Яндекс) |
-| Открытый код | Да | Нет |
-
-NoTrackSwitcher делает одно — исправляет выделенный текст по горячей клавише. Никаких фоновых процессов, никакой телеметрии.
+- Открытый исходный код
+- Без телеметрии и слежки
+- Не требует установки — просто запусти EXE
+- Размер исходников менее 300 КБ
+- Размер EXE менее 3 МБ
 
 ---
 
@@ -90,12 +88,10 @@ Output: `build\bin\NoTrackSwitcher.exe`
 
 See [BUILD.md](BUILD.md) for more options (MinGW, MSYS2).
 
-### Comparison with Punto Switcher (one of the most popular layout-fix utilities)
+### Advantages
 
-| | NoTrackSwitcher | Punto Switcher |
-|---|---|---|
-| Installation | Not required | Installer |
-| Telemetry | None | Yes (Yandex) |
-| Open source | Yes | No |
-
-NoTrackSwitcher does one thing — fixes selected text with a hotkey. No background processes, no telemetry.
+- Open source
+- No telemetry or tracking
+- No installation required — just run the EXE
+- Source code under 300 KB
+- EXE under 3 MB
