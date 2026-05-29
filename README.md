@@ -4,7 +4,7 @@
 
 ## Русский
 
-# NoTrack Switcher
+# NoTrackSwitcher
 
 Утилита для Windows исправляющая текст, набранный не в той раскладке.
 
@@ -42,19 +42,19 @@ cmake --build build
 
 ### Сравнение с Punto Switcher (одна из популярнейших утилит для исправления раскладки)
 
-| | NoTrack Switcher | Punto Switcher |
+| | NoTrackSwitcher | Punto Switcher |
 |---|---|---|
 | Установка | Не нужна | Установщик |
 | Телеметрия | Нет | Да (Яндекс) |
 | Открытый код | Да | Нет |
 
-NoTrack Switcher делает одно — исправляет выделенный текст по горячей клавише. Никаких фоновых процессов, никакой телеметрии.
+NoTrackSwitcher делает одно — исправляет выделенный текст по горячей клавише. Никаких фоновых процессов, никакой телеметрии.
 
 ---
 
 ## English
 
-# NoTrack Switcher
+# NoTrackSwitcher
 
 A Windows utility that fixes text typed in the wrong keyboard layout.
 
@@ -92,10 +92,10 @@ See [BUILD.md](BUILD.md) for more options (MinGW, MSYS2).
 
 ### Comparison with Punto Switcher (one of the most popular layout-fix utilities)
 
-| | NoTrack Switcher | Punto Switcher |
+| | NoTrackSwitcher | Punto Switcher |
 |---|---|---|
 | Installation | Not required | Installer |
 | Telemetry | None | Yes (Yandex) |
 | Open source | Yes | No |
 
-NoTrack Switcher does one thing — fixes selected text with a hotkey. No background processes, no telemetry.
+NoTrackSwitcher does one thing — fixes selected text with a hotkey. No background processes, no telemetry.
