@@ -48,8 +48,8 @@ if(MSVC)
     # /GS- — no security cookie overhead (safe for a trusted single-user app)
     target_compile_options(NoTrackSwitcher PRIVATE
         /W3 /WX-
-        $<$<CONFIG:Release>:/O2 /Oi /Ot /GL /MT>
-        $<$<CONFIG:Debug>:/Od /MTd>
+        $<$<CONFIG:Release>:/O1 /Os /Oi /GL /MD>
+        $<$<CONFIG:Debug>:/Od /MDd>
     )
     target_link_options(NoTrackSwitcher PRIVATE
         /SUBSYSTEM:WINDOWS

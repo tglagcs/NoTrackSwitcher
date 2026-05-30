@@ -26,3 +26,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: build/bin/NoTrackSwitcher.exe
+          body: |
+            ## Changes
+            - Switched from static CRT (`/MT`) to dynamic CRT (`/MD`) — EXE size reduced from ~2.8 MB to ~150 KB
+            - Requires `VCRUNTIME140.dll` (present on all Windows 10+ systems by default)
