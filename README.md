@@ -46,7 +46,7 @@ cmake --build build
 - Без телеметрии и слежки
 - Не требует установки — просто запусти EXE
 - Размер исходников менее 300 КБ
-- Размер EXE ~300 КБ
+- Размер EXE менее 300 КБ
 
 ---
 
@@ -94,4 +94,4 @@ See [BUILD.md](BUILD.md) for more options (MinGW, MSYS2).
 - No telemetry or tracking
 - No installation required — just run the EXE
 - Source code under 300 KB
-- EXE ~300 КБ
+- EXE under 300 KB
