@@ -5,8 +5,8 @@
 ## Русский
 
 # 🔄️ NoTrackSwitcher
-
-Утилита для Windows исправляющая текст, набранный не в той раскладке.
+<img width="2752" height="1325" alt="01header" src="https://github.com/user-attachments/assets/656c1ea7-7d13-4095-b7d3-5093e26028f9" />
+— Утилита для Windows исправляющая текст, набранный не в той раскладке.
 
 ### Как использовать
 
@@ -53,8 +53,8 @@ cmake --build build
 ## English
 
 # 🔄️ NoTrackSwitcher
-
-A Windows utility that fixes text typed in the wrong keyboard layout.
+<img width="2752" height="1325" alt="01header" src="https://github.com/user-attachments/assets/656c1ea7-7d13-4095-b7d3-5093e26028f9" />
+— A Windows utility that fixes text typed in the wrong keyboard layout.
 
 ### How to use
 
